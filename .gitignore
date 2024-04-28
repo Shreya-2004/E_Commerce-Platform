@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/E-CommerceWebsite
+/E-CommerceWebsite/.vs
+/E-CommerceWebsite/bin
+/E-CommerceWebsite/obj/Debug
+/packages

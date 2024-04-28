@@ -2,14 +2,15 @@
 
 @{
     ViewBag.Title = "UserDashboard";
+    var FirstName = ViewData["FirstName"];
 }
 
 <fieldset>
     <legend>User Dashboard</legend>
 
-    @if (Session["FirstName"] != null)
+    @if (FirstName != null)
     {
-        <text>Welcome @Session["FirstName"].ToString()</text>
+        <text>Welcome @FirstName</text>
     }
 
     @*Welcome @Model.FirstName, you have login successfully.*@
