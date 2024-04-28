@@ -1,0 +1,17 @@
+﻿@model E_CommerceWebsite.User
+
+@{
+    ViewBag.Title = "UserDashboard";
+}
+
+<fieldset>
+    <legend>User Dashboard</legend>
+
+    @if (Session["FirstName"] != null)
+    {
+        <text>Welcome @Session["FirstName"].ToString()</text>
+    }
+
+    @*Welcome @Model.FirstName, you have login successfully.*@
+</fieldset>
+
